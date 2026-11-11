@@ -1,9 +1,3 @@
-CREATE DATABASE IF NOT EXISTS `aist_pirog`
-  DEFAULT CHARACTER SET utf8mb4
-  COLLATE utf8mb4_unicode_ci;
-
-USE `aist_pirog`;
-
 CREATE TABLE IF NOT EXISTS `orders` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `last_name` VARCHAR(100) NOT NULL,
